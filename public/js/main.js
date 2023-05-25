@@ -9,7 +9,7 @@ window.Apex = {
       show: false,
     },
   },
-  colors: ["#FCCF31", "#17ead9", "#f02fc2"],
+  colors: ["#51b4b6", "#37a2d0"],
   stroke: {
     width: 3,
   },
@@ -30,7 +30,7 @@ window.Apex = {
   fill: {
     type: "gradient",
     gradient: {
-      gradientToColors: ["#F55555", "#6078ea", "#6094ea"],
+      gradientToColors: ["#51b4b6", "#37a2d0"],
     },
   },
   tooltip: {
@@ -87,7 +87,7 @@ const chartCurrent = new ApexCharts(document.querySelector("#chart-current"), {
   ],
   chart: {
     type: "line",
-    height: 200,
+    height: 250,
     stacked: true,
     animations: {
       enabled: true,
@@ -162,7 +162,7 @@ const chartVoltage = new ApexCharts(document.querySelector("#chart-voltage"), {
   ],
   chart: {
     type: "line",
-    height: 200,
+    height: 250,
     stacked: true,
     animations: {
       enabled: true,
@@ -237,7 +237,7 @@ const chartActivePower = new ApexCharts(document.querySelector("#chart-active-po
   ],
   chart: {
     type: "line",
-    height: 200,
+    height: 250,
     stacked: true,
     animations: {
       enabled: true,

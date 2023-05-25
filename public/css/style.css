@@ -1,57 +1,38 @@
-body {
-  background: #1b213b;
-  color: #777;
-  font-family: Montserrat, Arial, sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-.body-bg {
-  background: #f3f4fa !important;
+body {
+  background: #1b213b;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
-strong {
-  font-weight: 600;
+h3 {
+  text-align: center;
+  color: #51b4b6;
+  text-shadow: 5px 0 5px black, 0 5px 5px black;
 }
 
-.box .apexcharts-xaxistooltip {
-  background: #1b213b;
-  color: #fff;
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -2.4px;
+  font-weight: 700;
+  color: #51b4b6;
+  font-weight: 700;
+  text-shadow: 10px 0 10px black, 0 10px 10px black;
 }
 
-.content-area {
-  max-width: 1280px;
+.charts {
+  display: block;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.box {
+.chart {
   background-color: #262d47;
   padding: 25px 25px;
   border-radius: 4px;
-}
-
-.columnbox {
-  padding-right: 15px;
-}
-.radialbox {
-  max-height: 333px;
-  margin-bottom: 60px;
-}
-
-.apexcharts-legend-series tspan:nth-child(3) {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.edit-on-codepen {
-  text-align: right;
-  width: 100%;
-  padding: 0 20px 40px;
-  position: relative;
-  top: -30px;
-  cursor: pointer;
+  margin-bottom: 10px;
 }
